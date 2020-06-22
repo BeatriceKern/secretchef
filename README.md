@@ -1,24 +1,27 @@
-# README
+# SecretChef ![language](https://img.shields.io/badge/language-Ruby-red.svg) ![language](https://img.shields.io/badge/language-HTML-orange.svg) ![language](https://img.shields.io/badge/language-Javascript-yellow.svg) ![language](https://img.shields.io/badge/language-CSS-blueviolet.svg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Experience
+Enjoy a cooking experience that is 100% fun. No shopping, no planning, no hassle - just the fun of cooking!
 
-Things you may want to cover:
+## Chefs
+Every meal kit comes with a professional cooking tutorial by the restaurants' chef to show you exactly how the dish is cooked!
 
-* Ruby version
+## Ingredients
+All our partner restaurants work with carefully selected suppliers to provide you with the best quality products, regional and bio!
 
-* System dependencies
+## :books: Table of Contents
 
-* Configuration
+- [Usage](#rocket-usage)
+- [Support](#hammer_and_wrench-support)
+- [License](#scroll-license)
 
-* Database creation
+## :rocket: Usage
 
-* Database initialization
+1. Visit the page at [SecretChef](https://www.secretchef.de/). Welcome! :wave:
+2. Search for restaurants/meals available in one of the cities
+3. Find the perfect meal kit and add it to your shopping cart :shopping_cart:
+4. Complete your order
 
-* How to run the test suite
+## :hammer_and_wrench: Support
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please [open an issue](https://github.com/SeeQL-Enterprises/SeeQL/issues/new) for support.
