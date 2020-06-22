@@ -18,9 +18,9 @@ All our partner restaurants work with carefully selected suppliers to provide yo
 ## :rocket: Usage
 
 1. Visit the page at [SecretChef](https://www.secretchef.de/). Welcome! :wave:
-2. Search for restaurants/meals available in one of the cities
+2. Search for restaurants/meals available in your city 
 3. Find the perfect meal kit and add it to your shopping cart :shopping_cart:
-4. Complete your order
+4. Complete your order 
 
 ## :hammer_and_wrench: Support
 
