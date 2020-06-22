@@ -1,12 +1,12 @@
-# SecretChef 👩‍🍳 ![language](https://img.shields.io/badge/language-Ruby-red.svg) ![language](https://img.shields.io/badge/language-HTML-orange.svg) ![language](https://img.shields.io/badge/language-Javascript-yellow.svg) ![language](https://img.shields.io/badge/language-CSS-blueviolet.svg)
+# SecretChef ![language](https://img.shields.io/badge/language-Ruby-red.svg) ![language](https://img.shields.io/badge/language-HTML-orange.svg) ![language](https://img.shields.io/badge/language-Javascript-yellow.svg) ![language](https://img.shields.io/badge/language-CSS-blueviolet.svg)
 
-## Experience
+## Experience 
 Enjoy a cooking experience that is 100% fun. No shopping, no planning, no hassle - just the fun of cooking!
 
-## Chefs
+## Chefs 👩‍🍳 
 Every meal kit comes with a professional cooking tutorial by the restaurants' chef to show you exactly how the dish is cooked!
 
-## Ingredients
+## Ingredients 🥑 🧄 🧅
 All our partner restaurants work with carefully selected suppliers to provide you with the best quality products, regional and bio!
 
 ## :books: Table of Contents
