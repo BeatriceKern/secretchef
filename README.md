@@ -13,7 +13,6 @@ All our partner restaurants work with carefully selected suppliers to provide yo
 
 - [Usage](#rocket-usage)
 - [Support](#hammer_and_wrench-support)
-- [License](#scroll-license)
 
 ## :rocket: Usage
 
