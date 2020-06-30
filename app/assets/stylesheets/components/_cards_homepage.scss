@@ -1,4 +1,4 @@
-/*The same styling is applied to the cards on the recipe page*/
+/*The same styling is applied to the cards on the recipe page
 
 .homepage_cards {
   display: flex;
@@ -24,24 +24,26 @@
 .homepage_card p {
   opacity: .5;
 }
+*/
 
 .details {
+  width: 500px;
+  align-items: center;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
-  width: 86%;
-  margin-left: 7%;
+  margin: auto;
   padding: 20px;
   border-top: 1px solid rgb(230,230,230);
-  .meta img{
-    margin-top: 15%;
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .description {
-    width: 50%;
+}
+
+.meta img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 0px;
+  height: 0px;
+}
+
+.description {
+    width: 250px;
     text-align: center; 
     margin: auto auto;
     h1 {
@@ -49,7 +51,52 @@
       margin-bottom: 20px;
     }
     p {
-      text-align: left;
+      text-align: center;
     }
+}
+
+@media (min-width: 768px) {
+  .details {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+  }
+  .meta img {
+    width: 250px;
+    height: 250px;
+  }
+  .description {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .details {
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+  }
+  .meta img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  .description {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .details {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+  }
+  .meta img {
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+  }
+  .description {
+    width: 400px;
   }
 }
