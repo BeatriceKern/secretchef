@@ -1,16 +1,16 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= image_path "banner_index_restaurants.jpg" %>'); text-align: center;">
+<div class="banner" style="background-image: linear-gradient(rgba(98, 65, 23, 0.3),rgba(98, 65, 23, 0.3)), url('<%= image_path "banner_index_restaurants.jpg" %>'); text-align: center;">
   <div class="container">
     <% if params[:query] == "Meals" %>
-      <h1>You can choose from <%= pluralize @meals.size, "meal kit" %>!</h1>
+      <h1>Select from <%= pluralize @meals.size, "meal kit" %> in <%= params[:city] %> !</h1>
     <% else %>
-      <h1>You can choose from <%= pluralize @restaurants.size, "restaurant" %>!</h1>
+      <h1>Select from <%= pluralize @restaurants.size, "restaurant" %> in <%= params[:city] %> !</h1>
     <% end %>
   </div>
 </div>
 
-<div class="container pt-5">
+<div class="container  pt-5">
 
-  <div class="container d-flex flex-row justify-content-around">
+  <div class="d-flex flex-row justify-content-around">
     <%= link_to "RESTAURANTS", restaurants_path(query: "Restaurants", city: params[:city]), class: params[:query] == "Restaurants"? "main-button selected" : "main-button", remote: true %>
     <%= link_to "MEAL KITS", restaurants_path(query: "Meals", city: params[:city], cuisine: params[:cuisine]), class: params[:query] == "Meals"? "main-button selected" : "main-button", remote: true %>
   </div>
